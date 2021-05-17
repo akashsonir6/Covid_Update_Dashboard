@@ -17,7 +17,7 @@ const Cardcomponent = ({ cardtitle, value, desc, lastUpdate }) => {
             </Box>
             <CardContent>
                 <Typography variant='h5'>
-                    <Countup start={0} end={value} duration={2} seperater="." />
+                    <Countup start={0} end={value} duration={2} separator="," />
 
                 </Typography>
                 <Typography>{desc}</Typography>
