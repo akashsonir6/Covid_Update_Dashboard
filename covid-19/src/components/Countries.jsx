@@ -17,7 +17,7 @@ const Countries = ({ handleCountryChange }) => {
 
     return (
         <>
-            <Typography style={{ marginBottom: 20 }} variant="h4" color="textSecondary">
+            <Typography style={{ marginBottom: 20 }, { fontSize: '3vw' }} variant="h4" color="textSecondary">
                 Reported Cases or Deaths by countries or Territoty
         </Typography>
             <NativeSelect onChange={(e) => handleCountryChange(e.target.value)}>
