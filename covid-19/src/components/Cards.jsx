@@ -4,11 +4,9 @@ import Card from './Card';
 
 const useStyles = makeStyles({
     container: {
-        //color: '#BACA2B',
-        fontSize: 25,
+        fontSize: '3vw',
         color: "Red",
-        // fontStyle: 'itali',
-        //font-style: oblique
+        
     },
     component: {
         margin: '50px 0',// top and bottom
